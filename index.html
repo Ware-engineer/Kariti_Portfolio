@@ -1,74 +1,257 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Kariti Patrick | Portfolio</title>
-  <link rel="stylesheet" href="assets/style.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
-</head>
-<body>
-  <!-- HERO SECTION -->
-  <section id="hero">
-    <h1>Hi, I'm <span>Kariti Patrick</span></h1>
-    <p>ICT / Web Developer · PHP · MySQL · Excel & Data Systems · Crafting Digital School Solutions</p>
-    <a href="#projects" class="btn">View My Projects</a>
-  </section>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kariti Patrick | ICT Specialist & Developer</title>
 
-  <!-- ABOUT SECTION -->
-  <section id="about">
-    <div class="container">
-      <h2>About Me</h2>
-      <p>I’m Kariti Patrick, a software developer and ICT specialist based in Nairobi, Kenya. I design and build practical systems — such as school communication platforms and data-driven tools — using PHP, MySQL, and Excel. I’m passionate about creating efficient, user-friendly solutions that make a difference.</p>
-      <a href="Kariti_Patrick_Chege_CV_2025.pdf" download class="btn-dark">Download My CV</a>
-    </div>
-  </section>
-
-  <!-- ======= Projects Section ======= -->
-<section id="projects" style="padding: 60px 20px; background-color: #f8f9fa;">
-  <h2 style="text-align: center; font-size: 2rem; color: #001F3F; margin-bottom: 30px;">My Projects</h2>
-
-  <div class="projects-container">
-
-    <!-- Parent Memo Notification System -->
-    <div class="project-card">
-      <img src="images/projects/parent_memo_placeholder.png/Screenshot 2025-10-28 at 16-57-32 Admin Dashboard.png" alt="Parent Memo Notification System Screenshot">
-      <div class="project-info">
-        <h3>Parent Memo Notification System</h3>
-        <p>
-         <p>
-  A complete school-parent communication platform developed using PHP and MySQL. 
-  It allows school administrators to send email notifications, confirm student arrivals, 
-  manage parent records, and generate real-time reports — improving communication and efficiency.
-</p>
-
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/style.css" />
+  </head>
+  <body>
+    <header
+      id="hero"
+      class="d-flex align-items-center text-center text-white py-5"
+      style="
+        background: linear-gradient(135deg, #1e1e2f 0%, #2d2d44 100%);
+        min-height: 60vh;
+      "
+    >
+      <div class="container">
+        <h1 class="display-3 fw-bold">
+          Hi, I'm <span class="text-primary">Kariti Patrick</span>
+        </h1>
+        <p class="lead mb-4">
+          ICT Specialist · PHP Full-Stack Developer · Data Systems Expert
         </p>
-        <a href="projects/projectsparent-memo.html" target="_blank">Learn More →</a>
+        <div class="d-flex justify-content-center gap-3">
+          <a href="#projects" class="btn btn-primary btn-lg px-4"
+            >View My Systems</a
+          >
+          <a href="#contact" class="btn btn-outline-light btn-lg px-4"
+            >Get In Touch</a
+          >
+        </div>
       </div>
-    </div>
+    </header>
 
-  </div>
-</section>
-<!-- ======= End Projects Section ======= -->
+    <section id="about" class="py-5 bg-white">
+      <div class="container text-center">
+        <h2 class="fw-bold mb-4">Professional Profile</h2>
+        <div class="row justify-content-center">
+          <div class="col-md-8">
+            <p class="text-muted fs-5">
+              Based in Nairobi, Kenya, I specialize in bridging the gap between
+              complex data and user-friendly web solutions. I build operational
+              infrastructure from ICT Helpdesks to School Communication
+              Platforms using PHP, MySQL, and advanced Excel logic.
+            </p>
+            <div class="mt-4">
+              <span class="badge bg-light text-dark p-2 m-1 border"
+                >PHP 8.x</span
+              >
+              <span class="badge bg-light text-dark p-2 m-1 border"
+                >MySQL / SQL Server</span
+              >
+              <span class="badge bg-light text-dark p-2 m-1 border"
+                >Bootstrap 5</span
+              >
+              <span class="badge bg-light text-dark p-2 m-1 border"
+                >System Architecture</span
+              >
+              <span class="badge bg-light text-dark p-2 m-1 border"
+                >Data Reporting</span
+              >
+            </div>
+            <a
+              href="Kariti_Patrick_Chege_Professional_CV.docx"
+              download
+              class="btn btn-dark mt-4"
+            >
+              <i class="bi bi-file-earmark-pdf"></i> Download My CV
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
 
+    <section id="projects" class="py-5 bg-light">
+      <div class="container">
+        <h2 class="text-center fw-bold mb-2">Deployed Systems</h2>
+        <p class="text-center text-muted mb-5">
+          Enterprise grade solutions currently live and operational.
+        </p>
 
-  <!-- CONTACT SECTION -->
-  <section id="contact">
-    <div class="container">
-      <h2>Contact</h2>
-      <p>📧 <a href="mailto:patrickchege529@gmail.com">patrickchege529@gmail.com</a></p>
-      <p>💻 <a href="https://github.com/Ware-engineer" target="_blank" rel="noopener noreferrer">github.com/Ware-engineer</a></p>
-      <p>🔗 <a href="https://www.linkedin.com/in/patrick-chege-544562283" target="_blank" rel="noopener noreferrer">linkedin.com/in/patrick-chege-544562283</a></p>
-    </div>
-  </section>
+        <div class="row g-4">
+          <div class="col-md-6">
+            <article
+              class="card h-100 shadow-sm border-0 overflow-hidden project-card"
+            >
+              <div class="card-header bg-dark text-white py-3">
+                <h5 class="mb-0 fw-bold">
+                  <i class="bi bi-headset me-2 text-primary"></i>Enterprise ICT
+                  Helpdesk
+                </h5>
+              </div>
+              <div class="card-body d-flex flex-column">
+                <p class="text-muted">
+                  A comprehensive incident management portal designed for IT
+                  departments to track, manage, and resolve technical issues.
+                </p>
+                <ul class="small text-secondary ps-3 mb-4">
+                  <li>
+                    <strong>Verification Loop:</strong> User-led "Confirm Fix"
+                    status management.
+                  </li>
+                  <li>
+                    <strong>Data Insights:</strong> Admin dashboard with
+                    real-time category analytics.
+                  </li>
+                  <li>
+                    <strong>File Handling:</strong> Secure attachment system for
+                    issue screenshots.
+                  </li>
+                </ul>
+                <div class="mt-auto">
+                  <div class="mb-3">
+                    <span class="badge rounded-pill bg-primary px-3"
+                      >PHP / MySQL</span
+                    >
+                    <span class="badge rounded-pill bg-success px-3"
+                      >Live Demo</span
+                    >
+                  </div>
+                  <div class="d-flex gap-2">
+                    <a
+                      href="https://helpdesksupport.42web.io/"
+                      target="_blank"
+                      class="btn btn-primary w-100 fw-bold"
+                      >Open System</a
+                    >
+                    <a
+                      href="https://github.com/Ware-engineer"
+                      target="_blank"
+                      class="btn btn-outline-dark"
+                      title="View Source Code"
+                      ><i class="bi bi-github"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </div>
 
-  <footer>
-    <p>© 2025 Kariti Patrick. All rights reserved.</p>
-  </footer>
-</body>
+          <div class="col-md-6">
+            <article
+              class="card h-100 shadow-sm border-0 overflow-hidden project-card"
+            >
+              <div class="card-header bg-primary text-white py-3">
+                <h5 class="mb-0 fw-bold">
+                  <i class="bi bi-megaphone me-2"></i>Parent Memo Notification
+                  System
+                </h5>
+              </div>
+              <div class="card-body d-flex flex-column">
+                <p class="text-muted">
+                  A streamlined communication platform for schools to manage
+                  student attendance alerts and parent notifications.
+                </p>
+                <ul class="small text-secondary ps-3 mb-4">
+                  <li>
+                    <strong>Arrival Confirmation:</strong> Real-time student
+                    check-in alerts for parents.
+                  </li>
+                  <li>
+                    <strong>Automated Reporting:</strong> Scheduled summaries of
+                    daily notifications.
+                  </li>
+                  <li>
+                    <strong>Cloud Integration:</strong> Fully hosted with
+                    database-driven record management.
+                  </li>
+                </ul>
+                <div class="mt-auto">
+                  <div class="mb-3">
+                    <span class="badge rounded-pill bg-primary px-3"
+                      >PHP / Mail API</span
+                    >
+                    <span class="badge rounded-pill bg-success px-3"
+                      >Live Demo</span
+                    >
+                  </div>
+                  <div class="d-flex gap-2">
+                    <a
+                      href="https://parent-memo-notification.infinityfreeapp.com/"
+                      target="_blank"
+                      class="btn btn-primary w-100 fw-bold"
+                      >Open System</a
+                    >
+                    <a
+                      href="https://github.com/Ware-engineer"
+                      target="_blank"
+                      class="btn btn-outline-dark"
+                      title="View Source Code"
+                      ><i class="bi bi-github"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="py-5 bg-white">
+      <div class="container text-center">
+        <h2 class="fw-bold mb-4">Let's Build Something</h2>
+        <div class="row justify-content-center">
+          <div class="col-md-4">
+            <div class="p-3 border rounded shadow-sm mb-3">
+              <i class="bi bi-envelope-fill fs-2 text-primary"></i>
+              <p class="mt-2 mb-0">
+                <a
+                  href="mailto:patrickchege529@gmail.com"
+                  class="text-decoration-none text-dark"
+                  >patrickchege529@gmail.com</a
+                >
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="p-3 border rounded shadow-sm mb-3">
+              <i class="bi bi-linkedin fs-2 text-primary"></i>
+              <p class="mt-2 mb-0">
+                <a
+                  href="https://www.linkedin.com/in/patrick-chege-544562283"
+                  target="_blank"
+                  class="text-decoration-none text-dark"
+                  >LinkedIn Profile</a
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="bg-dark text-white py-4 text-center">
+      <div class="container">
+        <p class="mb-0">© 2026 Kariti Patrick | Certified ICT Specialist</p>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
 </html>
-
-
-
-
-
